@@ -1,17 +1,17 @@
 import 'faction.dart';
 import 'package:uuid/uuid.dart';
 
-class Unit
+class UnitTemplate
 {
   var           uuid = const Uuid();
   String        name;
-  Faction       faction;
-  int           number;
+  //Faction       faction;
+  int           currentWounds;
   List<String>? weapons;
 
-  Unit({
+  UnitTemplate({
     required this.name,
-    required this.faction,
-    required this.number
+    //required this.faction,
+    required this.currentWounds
   });
 }

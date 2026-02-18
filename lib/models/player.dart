@@ -1,11 +1,11 @@
-import 'squad.dart';
+import 'squadTemplate.dart';
 
 class Player
 {
   String        name;
   int           armyPoints = 0;
   int           gamePoints = 0;
-  List<Squad>   squads = [];
+  List<SquadTemplate>   squads = [];
 
   Player(this.name);
 }

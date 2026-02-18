@@ -1,9 +1,9 @@
-import 'unit.dart';
+import 'unitTemplate.dart';
 
 class Faction
 {
   String       name;
-  List<Unit>?  units;
+  List<UnitTemplate>?  units;
 
   Faction(this.name);
 }
